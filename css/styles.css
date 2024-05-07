@@ -411,15 +411,16 @@ main .texto-main .bold {
 
 .historia1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     margin: 1rem;
     border: 2rem;
     height: 50rem;
+    background-color: lightgrey;
 }
 
 .historia1 h2 {
-    font-size: 3em;
+    font-size: 2rem;
     padding-bottom: 2rem;
 
 }
@@ -443,15 +444,11 @@ main .texto-main .bold {
     text-align: center; 
 }
 
-.historia1-img {
-    width: 50%; 
+.historia1 img {
+    width: 35%; 
     text-align: center; 
 }
 
-.historia1-text,
-.historia1-img img {
-    width: 100%;
-}
 
 .evento-historia {
     display: flex;
