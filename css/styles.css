@@ -429,7 +429,7 @@ main .texto-main .bold {
 }
 
 .historia1 p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding-bottom: 1rem;
     padding-right: 1rem;
 }
@@ -439,7 +439,7 @@ main .texto-main .bold {
 }
 
 .historia1-text {
-    width: 50%; 
+    width: auto; 
     padding: 0 2rem; 
     text-align: justify; 
 }
@@ -450,6 +450,7 @@ main .texto-main .bold {
 .historia1 img {
     width: 35%; 
     text-align: center; 
+    padding-right: 1rem;
 }
 
 
@@ -508,8 +509,8 @@ main {
     flex-direction: row;
     justify-content: space-evenly;
     text-align: center;
-    padding: 4rem;
-    margin: 4rem;
+    padding: 2rem;
+    margin: 2rem;
 }
 
 .metodo div {
