@@ -373,6 +373,9 @@ main .texto-main .bold {
 
 }
 
+
+
+
 /* HISTORIA */
 
 
@@ -540,8 +543,54 @@ main {
 
 /* .aeropress img {
     order: -1;
-
 } */
+
+@media screen and (max-width:1025px) {
+
+    
+    
+    
+    .metodo {
+        display:flex;
+        flex-direction: column !important;
+        align-items: center;
+        justify-content: space-evenly !important;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        margin-bottom: .5rem;
+    
+    }
+    
+    .metodo div {
+            width: 100% !important;
+            height: 50%;
+            /* padding: 3rem;
+            display: flex;
+            flex-direction: column; */
+            padding: 0;
+            display: block;
+    
+        }
+    
+    .metodo img {
+            order: 0 !important;
+            padding-bottom: .5rem;
+        }
+    
+    .metodo p {
+            padding: .2rem !important;
+            margin: 0;
+            width: 100%;
+    
+    }
+    
+    }
+
+
+
+
+
 
 /* GALERIA */
 
