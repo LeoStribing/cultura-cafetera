@@ -7,6 +7,8 @@
     <title>CC - Preparación</title>
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
@@ -14,7 +16,7 @@
         <div class="logo">
             <a href="../index.html"><img src="/assets/logo.png" alt=""></a>
         </div>
-        <nav>
+        <nav class="menu-lg">
             <ul class="nav-links">
                 <li><a href="historia.html">HISTORIA</a></li>
                 <li><a href="diversidad.html">DIVERSIDAD</a></li>
@@ -22,6 +24,22 @@
                 <li><a href="galeria.html">GALERÍA</a></li>
             </ul>
         </nav>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-list"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                </svg>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">HISTORIA</a></li>
+                <li><a class="dropdown-item" href="#">DIVERSIDAD</a></li>
+                <li><a class="dropdown-item" href="#">PREPARACIÓN</a></li>
+                <li><a class="dropdown-item" href="#">GALERÍA</a></li>
+            </ul>
+        </div>
     </header>
     <main>
         <h2 class="preparacion">
@@ -30,50 +48,56 @@
             resaltan diferentes aspectos de su sabor y cuerpo. Desde la meticulosa precisión de la preparación manual
             hasta la conveniencia de las máquinas automáticas, cada método ofrece una experiencia única.</h2>
     </main>
-    <div class="container">
-    <div class="metodo goteo">
-        <div>
-            <h2>Cafetera de goteo:</h2>
-            <p>Este es probablemente el método más común en hogares y oficinas. Se coloca café molido en un filtro de
-                papel en un portafiltro, se vierte agua caliente sobre el café y se deja que gotee a través del filtro
-                en una jarra debajo.</p>
+    <div class="container-fluid">
+        <div class="metodo goteo">
+            <div>
+                <h2>Cafetera de goteo:</h2>
+                <p>Este es probablemente el método más común en hogares y oficinas. Se coloca café molido en un filtro
+                    de
+                    papel en un portafiltro, se vierte agua caliente sobre el café y se deja que gotee a través del
+                    filtro
+                    en una jarra debajo.</p>
+            </div>
+            <img class="goteo" src="/assets/cafe-goteo.jpg" alt="">
         </div>
-        <img class="goteo" src="/assets/cafe-goteo.jpg" alt="">
-    </div>
-    <div class="metodo prensa">
-        <div>
-            <h2>Prensa francesa:</h2>
-            <p>También conocida como prensa de émbolo, este método implica mezclar café molido con agua caliente en una
-                jarra y luego presionar un émbolo con un filtro de malla para separar el café del líquido.</p>
+        <div class="metodo prensa">
+            <div>
+                <h2>Prensa francesa:</h2>
+                <p>También conocida como prensa de émbolo, este método implica mezclar café molido con agua caliente en
+                    una
+                    jarra y luego presionar un émbolo con un filtro de malla para separar el café del líquido.</p>
+            </div>
+            <img src="/assets/prensa-francesa.jpg" alt="">
         </div>
-        <img src="/assets/prensa-francesa.jpg" alt="">
-    </div>
-    <div class="metodo espresso">
-        <div>
-            <h2>Espresso: </h2>
-            <p>Se hace forzando agua caliente a través de café molido finamente y compactado. Este método produce un
-                café concentrado y fuerte, y se utiliza como base para otras bebidas de café como lattes y cappuccinos.
-            </p>
+        <div class="metodo espresso">
+            <div>
+                <h2>Espresso: </h2>
+                <p>Se hace forzando agua caliente a través de café molido finamente y compactado. Este método produce un
+                    café concentrado y fuerte, y se utiliza como base para otras bebidas de café como lattes y
+                    cappuccinos.
+                </p>
+            </div>
+            <img src="/assets/cafe-espresso.jpg" alt="">
         </div>
-        <img src="/assets/cafe-espresso.jpg" alt="">
-    </div>
-    <div class="metodo moka">
-        <div>
-            <h2>Moka pot: </h2>
-            <p>También conocida como cafetera italiana, este método utiliza vapor de agua a presión para pasar a través
-                del café molido y producir un café similar al espresso, pero con un sabor más suave.</p>
+        <div class="metodo moka">
+            <div>
+                <h2>Moka pot: </h2>
+                <p>También conocida como cafetera italiana, este método utiliza vapor de agua a presión para pasar a
+                    través
+                    del café molido y producir un café similar al espresso, pero con un sabor más suave.</p>
+            </div>
+            <img src="/assets/moka-pot.jpg" alt="">
         </div>
-        <img src="/assets/moka-pot.jpg" alt="">
-    </div>
-    <div class="metodo aeropress">
-        <div>
-            <h2>Aeropress: </h2>
-            <p>Este método utiliza presión de aire para forzar el agua caliente a través del café molido. Es portátil y
-                produce un café con un sabor suave y limpio.</p>
+        <div class="metodo aeropress">
+            <div>
+                <h2>Aeropress: </h2>
+                <p>Este método utiliza presión de aire para forzar el agua caliente a través del café molido. Es
+                    portátil y
+                    produce un café con un sabor suave y limpio.</p>
+            </div>
+            <img src="/assets/aeropress.jpg" alt="">
         </div>
-        <img src="/assets/aeropress.jpg" alt="">
     </div>
-</div>
     <footer class="footer">
         <div class="redes-sociales">
             <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>

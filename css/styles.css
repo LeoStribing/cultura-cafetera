@@ -482,6 +482,11 @@ main .texto-main .bold {
 
 /*  PREPARACION */
 
+.dropdown {
+    display: none;
+
+}
+
 main {
     padding: 2rem;
     border: .5rem;
@@ -498,10 +503,10 @@ main {
 }
 
 .metodo {
-    background-color:white;
+    background-color:lightgray;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
     padding: 4rem;
     margin: 4rem;
@@ -545,6 +550,8 @@ main {
     order: -1;
 } */
 
+/* VISTA TABLET */
+
 @media screen and (max-width:1025px) {
 
     
@@ -587,10 +594,28 @@ main {
     
     }
 
+/* VISTA MOBILE */
+
+
+    @media screen and (max-width:840px) {
+        
+        .menu-lg{
+            display:none;
+}
+
+.dropdown{
+    display:block;    
+
+}
+
+.preparacion {
+    font-size: 1rem;
+
+}
 
 
 
-
+}
 
 /* GALERIA */
 
