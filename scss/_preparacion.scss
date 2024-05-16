@@ -1,0 +1,135 @@
+.dropdown {
+    display: none;
+
+}
+
+main {
+    padding: 2rem;
+    border: .5rem;
+
+    margin: 1rem;
+}
+
+
+.preparacion{
+    border: .4rem;
+    padding: 2rem;
+    border-style: double;
+
+}
+
+.metodo {
+    background-color:lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.metodo div {
+    width: 48%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.metodo p {
+    padding: 5rem;
+
+}
+
+.metodo img {
+    width: 40%;
+
+}
+.servicio img {
+    width: 48%;
+    padding: 5rem;
+
+}
+
+.prensa img {
+    order: -1;
+
+}
+
+.moka img {
+    order: -1;
+
+}
+
+/* .aeropress img {
+    order: -1;
+} */
+
+/* VISTA TABLET */
+
+@media screen and (max-width:1025px) {
+
+    
+    
+    
+    .metodo {
+        display:flex;
+        flex-direction: column !important;
+        align-items: center;
+        justify-content: space-evenly !important;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        margin-bottom: .5rem;
+    
+    }
+    
+    .metodo div {
+            width: 100% !important;
+            height: 50%;
+            /* padding: 3rem;
+            display: flex;
+            flex-direction: column; */
+            padding: 0;
+            display: block;
+    
+        }
+    
+    .metodo img {
+            order: 0 !important;
+            padding-bottom: .5rem;
+        }
+    
+    .metodo p {
+            padding: .2rem !important;
+            margin: 0;
+            width: 100%;
+    
+    }
+    
+    }
+
+/* VISTA MOBILE */
+
+
+    @media screen and (max-width:840px) {
+        
+        .menu-lg{
+            display:none;
+}
+
+.dropdown{
+    display:block;    
+
+}
+
+.preparacion {
+    font-size: 1rem;
+
+}
+
+
+
+}
+

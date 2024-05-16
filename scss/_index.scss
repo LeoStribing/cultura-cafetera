@@ -1,0 +1,240 @@
+
+
+
+
+
+main {
+    display: flex;
+    padding-top: 1rem;
+
+}
+main aside {
+    width: 36%;
+    height: auto;
+}
+
+main aside img{
+    width: 100%;
+    height: auto;
+
+}
+
+
+main .texto-main {
+    width: 33%;
+    font-size: 3rem;
+    padding-left: 1.5rem;
+    padding-right: 1,5rem;
+    text-align: center; 
+
+}
+
+main .texto-main h1 {
+    text-align: center;
+    font-size: calc(1.2rem + 2vw); 
+
+}
+
+
+main .texto-main p {
+    font-size: 1rem;
+    padding: .1rem;
+    padding-right: 2rem;
+    text-align: center;
+
+}
+
+main .texto-main .p-start {
+    padding-top: 6rem;
+}
+
+main .texto-main .bold {
+    font-weight: bolder;
+    font-size: 1.5rem;
+    padding-top: 2.8rem;
+
+}
+
+// .home-hr {
+//     display: block;
+//     height: .2rem;
+//     background-color: black;
+//     margin-bottom: 1rem;
+
+// }
+
+
+
+/* Sección 1 - HISTORIA */
+
+.section1-home {
+    display: flex;
+    background-color: darkgrey;
+    height: auto;
+    width: 100%; 
+    margin: 0 auto;
+    padding-top: 1rem; 
+    padding-bottom: 1rem;
+    align-items: center;
+
+}
+
+.section1-home h2 {
+    width: 60%;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}   
+
+.section1-home p {
+    width: 60%;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.historia-home  {
+    padding-left: 2rem;
+
+}
+
+
+.historia-home a {
+    padding-left: 2rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color:saddlebrown
+
+}
+
+.historia-img {
+    margin-left: auto;
+    max-width: 100%;
+    padding-right: 2.5rem;
+    
+
+}
+
+.historia-img img {
+        margin-left: auto;
+        max-width: auto;
+        height: 20rem;
+    
+}
+
+/* Sección 2 - DIVERSIDAD*/
+
+.section2-home {
+    display: flex;
+    background-color: rgb(46, 45, 45);
+    height: auto;
+    width: 100%; 
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding-top: 1rem; 
+    padding-bottom: 1rem;
+    align-items: center;
+
+}
+
+.diversidad-home {
+    color: white;
+    padding-left: 2rem;
+
+}
+
+.section2-home h2 {
+    width: 60%;
+    padding-left: 2rem;
+}   
+
+.section2-home p {
+    width: 60%;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.section2-home .diversidad-home a {
+    padding-left: 2rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color:saddlebrown
+}  
+
+.diversidad-img {
+    margin-left: auto;
+    max-width: 100%;
+    padding-right: 2.5rem;
+
+}
+
+.diversidad-img img {
+        margin-left: auto;
+        max-width: 100%;
+    
+}
+
+/* Sección 3 - PREPARACION*/
+
+.section3-home {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: auto;
+    width: 100%; 
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem; 
+    padding-bottom: 1rem;
+    align-items: center;   
+
+
+}
+
+.preparacion-home {
+    color: white;
+    width: 100%;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.section3-home h2 {
+    width: 100%;
+    padding-left: 2rem;
+}   
+
+.section3-home p {
+    width: 100%;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.preparacion-home  {
+    padding-left: 2rem;
+
+}
+
+.section3-home .preparacion-home a {
+    padding-left: 2rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color:saddlebrown;
+}
+
+.section3-home .preparacion-img {
+    margin-left: auto;
+    max-width: 100%;
+    padding-right: 2.5rem; 
+
+}
+
+.preparacion-img img {
+    display: flex;
+    margin-left: auto;
+    max-width: 60%;
+    
+}

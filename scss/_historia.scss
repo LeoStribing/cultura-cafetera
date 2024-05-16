@@ -1,0 +1,101 @@
+.historia-main {
+    height: 100vh;
+    overflow-y: hidden;
+    perspective: .2rem;
+    align-items: center;
+
+}
+
+
+
+
+.historia-main .parallax {
+    width: 100%;
+    height: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/etiopia.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.historia-main h1{
+    font-weight: 600;
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(128, 128, 128, 0.555);
+    padding: 2rem;
+
+}
+
+.historia1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem;
+    border: 2rem;
+    height: 50rem;
+    background-color: lightgrey;
+}
+
+.historia1 h2 {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.historia1 p {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+}
+
+.kaldi-bold {
+    font-weight: bolder;
+}
+
+.historia1-text {
+    width: auto; 
+    padding: 0 2rem; 
+    text-align: justify; 
+}
+.historia1-h2 {
+    text-align: center; 
+}
+
+.historia1 img {
+    width: 35%; 
+    text-align: center; 
+    padding-right: 1rem;
+}
+
+
+.evento-historia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 30rem;
+    width: 100%;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    background-color: grey;
+
+}
+
+.evento-historia div:first-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30%;
+    height: 100%;
+    padding: 1rem;
+}
+
+.evento-historia img{
+    width: 40%;
+    height: 100%;
+    padding: 1rem;
+}

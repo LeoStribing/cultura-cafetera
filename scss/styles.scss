@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+@import 'index', 'historia', 'diversidad', 'preparacion', 'galeria';
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+/* MENU DE NAVEGACION */
+
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+    padding: .5rem 3%;
+
+}
+
+.header .logo {
+    cursor: pointer;
+
+
+}
+
+.header .logo img {
+    height: 7rem;
+    width: auto;
+    border-radius: 100%;
+    transition: all .3s;
+
+}
+
+.header .logo img:hover {
+    transform: scale(1.05,1.05);
+
+}
+
+.header .nav-links {
+    list-style: none;
+
+}
+
+.header .nav-links li {
+    display: inline;
+    padding:0 1.2rem;
+    
+}
+
+.header .nav-links li:hover {
+    transform: scale(1.1);
+    
+}
+
+.header .nav-links a{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: white;
+
+}
+
+header .nav-links li a:hover {
+    color: darkgray
+
+}
+
+/* PIE DE PAGINA */
+
+.footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;  
+}
+
+.redes-sociales {
+    display: flex;
+    align-items: center; 
+}
+
+.redes-sociales a {
+    margin-right: 1rem;
+    color: saddlebrown;
+}  
+
+
+.fab {
+    font-size: 1.8rem;
+}
+
+.copyright {
+    color: white;
+
+
+}
