@@ -100,3 +100,23 @@ header .nav-links li a:hover {
 
 
 }
+
+@media screen and (max-width:840px) {
+        
+    .menu-lg{
+        display:none;
+}
+
+.dropdown{
+display:block;    
+
+}
+
+.preparacion {
+font-size: 1rem;
+
+}
+
+
+
+}

@@ -140,6 +140,18 @@
 
 @media screen and (max-width:840px) {
 
+    .historia-main .parallax {
+
+        height: 50rem;
+        
+    
+    }
+
+    .parallax h1 {
+        font-size: 2rem;
+
+    }
+
     .evento-historia {
         flex-direction: column;
         justify-content: center;
@@ -166,6 +178,7 @@
     text-align: center;
     
     }
+    
 
 
 }

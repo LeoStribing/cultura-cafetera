@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap");
 main {
   display: flex;
@@ -19,186 +18,166 @@ main .texto-main {
   width: 33%;
   font-size: 3rem;
   padding-left: 1.5rem;
-  padding-right: 1, 5rem;
+  padding-right: 0;
   text-align: center;
 }
 
 main .texto-main h1 {
   text-align: center;
   font-size: calc(1.2rem + 2vw);
+  padding-bottom: 9rem;
 }
 
 main .texto-main p {
   font-size: 1rem;
-  padding: 0.1rem;
-  padding-right: 2rem;
+  padding: 1rem;
   text-align: center;
 }
 
-main .texto-main .p-start {
+main .p-start {
   padding-top: 6rem;
 }
 
 main .texto-main .bold {
   font-weight: bolder;
   font-size: 1.5rem;
-  padding-top: 2.8rem;
 }
 
-/* Sección 1 - HISTORIA */
-.section1-home {
+/* SECCIONES DE LA HOME PAGE */
+section {
+  background-color: lightgray;
   display: flex;
-  background-color: darkgrey;
-  height: auto;
-  width: 100%;
-  margin: 0 auto;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  align-items: center;
-}
-
-.section1-home h2 {
-  width: 60%;
-  padding-left: 2rem;
-  padding-top: 2rem;
-}
-
-.section1-home p {
-  width: 60%;
-  padding-top: 2rem;
-  padding-left: 2rem;
-  padding-bottom: 2rem;
-}
-
-.historia-home {
-  padding-left: 2rem;
-}
-
-.historia-home a {
-  padding-left: 2rem;
-  font-size: 1.5rem;
-  font-weight: bolder;
-  color: saddlebrown;
-}
-
-.historia-img {
-  margin-left: auto;
-  max-width: 100%;
-  padding-right: 2.5rem;
-}
-
-.historia-img img {
-  margin-left: auto;
-  max-width: auto;
   height: 20rem;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem;
+  text-align: left;
 }
 
-/* Sección 2 - DIVERSIDAD*/
-.section2-home {
+section div {
+  width: 48%;
+  padding: 3rem;
   display: flex;
-  background-color: rgb(46, 45, 45);
-  height: auto;
-  width: 100%;
-  margin: 0 auto;
-  margin-top: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.diversidad-home {
-  color: white;
-  padding-left: 2rem;
-}
-
-.section2-home h2 {
-  width: 60%;
-  padding-left: 2rem;
-}
-
-.section2-home p {
-  width: 60%;
-  padding-top: 2rem;
-  padding-left: 2rem;
+section p {
   padding-bottom: 2rem;
 }
 
-.section2-home .diversidad-home a {
-  padding-left: 2rem;
-  font-size: 1.5rem;
-  font-weight: bolder;
+section a {
   color: saddlebrown;
-}
-
-.diversidad-img {
-  margin-left: auto;
-  max-width: 100%;
-  padding-right: 2.5rem;
-}
-
-.diversidad-img img {
-  margin-left: auto;
-  max-width: 100%;
-}
-
-/* Sección 3 - PREPARACION*/
-.section3-home {
-  display: flex;
-  background-color: rgb(0, 0, 0);
-  height: auto;
-  width: 100%;
-  justify-content: space-between;
-  margin: 0 auto;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  align-items: center;
-}
-
-.preparacion-home {
-  color: white;
-  width: 100%;
-  padding-top: 2rem;
-  padding-left: 2rem;
-  padding-bottom: 2rem;
-}
-
-.section3-home h2 {
-  width: 100%;
-  padding-left: 2rem;
-}
-
-.section3-home p {
-  width: 100%;
-  padding-top: 2rem;
-  padding-left: 2rem;
-  padding-bottom: 2rem;
-}
-
-.preparacion-home {
-  padding-left: 2rem;
-}
-
-.section3-home .preparacion-home a {
-  padding-left: 2rem;
   font-size: 1.5rem;
+  padding-top: 2rem;
   font-weight: bolder;
-  color: saddlebrown;
 }
 
-.section3-home .preparacion-img {
-  margin-left: auto;
-  max-width: 100%;
-  padding-right: 2.5rem;
+section div img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 2rem;
 }
 
-.preparacion-img img {
-  display: flex;
-  margin-left: auto;
-  max-width: 60%;
+.diversity {
+  background-color: dimgrey;
+  color: white;
 }
 
+.diversity a {
+  color: rgb(189, 118, 25);
+}
+
+.preparation {
+  background-color: black;
+  color: white;
+}
+
+/* VISTA TABLET */
+@media screen and (max-width: 1025px) {
+  main .imagen-derecha {
+    display: none;
+  }
+}
+main aside {
+  width: 40%;
+  height: auto;
+}
+
+main .texto-main {
+  width: 60%;
+  font-size: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1, 5rem;
+  text-align: center;
+}
+
+main .texto-main p {
+  font-size: 1rem;
+  padding: 0.1rem;
+  padding-right: 0.5rem;
+  text-align: center;
+}
+
+main .texto-main .p-start {
+  padding-top: 1rem;
+}
+
+main .texto-main .bold {
+  font-weight: bolder;
+  font-size: 1rem;
+  padding-top: 0.5rem;
+}
+
+aside .aside-home-img {
+  height: 100%;
+}
+
+/* VISTA MOBILE */
+@media screen and (max-width: 840px) {
+  main .texto-main h1 {
+    padding-bottom: 1rem;
+  }
+  main .texto-main {
+    width: 100%;
+    font-size: 3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-align: center;
+  }
+  main div {
+    width: 100%;
+  }
+  .main-home {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+  }
+  .imagen-home {
+    display: none;
+  }
+  section {
+    flex-direction: column;
+    height: auto;
+  }
+  section div {
+    width: 100%;
+    padding: 0.5rem;
+  }
+  section h2 {
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+  section p {
+    font-size: 0.8rem;
+  }
+  section div img {
+    padding: 0;
+  }
+}
 .historia-main {
   height: 100vh;
   overflow-y: hidden;
@@ -314,6 +293,12 @@ main .texto-main .bold {
 }
 /* VISTA MOBILE */
 @media screen and (max-width: 840px) {
+  .historia-main .parallax {
+    height: 50rem;
+  }
+  .parallax h1 {
+    font-size: 2rem;
+  }
   .evento-historia {
     flex-direction: column;
     justify-content: center;
@@ -447,17 +432,6 @@ main {
   }
 }
 /* VISTA MOBILE */
-@media screen and (max-width: 840px) {
-  .menu-lg {
-    display: none;
-  }
-  .dropdown {
-    display: block;
-  }
-  .preparacion {
-    font-size: 1rem;
-  }
-}
 .barista-destacado {
   display: flex;
   flex-direction: row;
@@ -654,4 +628,16 @@ header .nav-links li a:hover {
 
 .copyright {
   color: white;
+}
+
+@media screen and (max-width: 840px) {
+  .menu-lg {
+    display: none;
+  }
+  .dropdown {
+    display: block;
+  }
+  .preparacion {
+    font-size: 1rem;
+  }
 }/*# sourceMappingURL=styles.css.map */

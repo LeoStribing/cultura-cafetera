@@ -16,16 +16,32 @@
 <body>
     <header class="header">
         <div class="logo">
-            <img src="assets/logo.png" alt="">
+            <a href="../index.html"><img src="../assets/logo.png" alt=""></a>
         </div>
-        <nav>
+        <nav class="menu-lg">
             <ul class="nav-links">
                 <li><a href="cultura-cafetera/historia.html">HISTORIA</a></li>
                 <li><a href="cultura-cafetera/diversidad.html">DIVERSIDAD</a></li>
-                <li><a href="cultura-cafetera/preparacion.html">PREPARACION</a></li>
-                <li><a href="cultura-cafetera/galeria.html">GALERIA</a></li>
+                <li><a href="cultura-cafetera/preparacion.html">PREPARACIÓN</a></li>
+                <li><a href="cultura-cafetera/galeria.html">GALERÍA</a></li>
             </ul>
         </nav>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-list"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                </svg>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="cultura-cafetera/historia.html">HISTORIA</a></li>
+                <li><a class="dropdown-item" href="cultura-cafetera/diversidad.html">DIVERSIDAD</a></li>
+                <li><a class="dropdown-item" href="cultura-cafetera/preparacion.html">PREPARACIÓN</a></li>
+                <li><a class="dropdown-item" href="cultura-cafetera/galeria.html">GALERÍA</a></li>
+            </ul>
+        </div>
     </header>
     <div class="container-fluid">
         <main class="main-home">
@@ -44,44 +60,42 @@
                 <p class="bold">¡Esperamos que disfrutes tu estancia y que encuentres inspiración para tu próxima taza
                     de café!</p>
             </div>
-            <aside class="imagen-home">
+            <aside class="imagen-home imagen-derecha">
                 <img class="aside-home-img" src="assets/mocno-fotografia-xHJ8newJTgc-unsplash.jpg"
                     alt="foto gentileza de Alin Luna">
             </aside>
         </main>
     </div>
-    <!-- <div class="home-hr"></div> -->
     <div class="container">
-        <section class="section1-home">
-            <div class="historia-home">
+        <section class="history">
+            <div>
                 <h2>Origenes </h2>
                 <p>El café fue descubierto por primera vez en las tierras altas de Etiopía, alrededor del siglo IX.</p>
                 <a href="cultura-cafetera/historia.html">Saber más...</a>
             </div>
-
-            <div class="historia-img">
+            <div>
                 <img src="assets/fruto-cafe.jpg" alt="">
             </div>
         </section>
-        <section class="section2-home">
-            <div class="diversidad-home">
+        <section class="diversity">
+            <div>
                 <h2>Mas allá del tradicional espresso </h2>
                 <p>Desde el espresso hasta el latte, te guiaremos a través de técnicas, tradiciones y secretos para
                     disfrutar de esta apasionante bebida en todas sus formas.</p>
                 <a href="cultura-cafetera/diversidad.html">Saber más...</a>
             </div>
-            <div class="diversidad-img">
+            <div>
                 <img src="assets/diferentes-tipos-de-cafe.jpg" alt="">
             </div>
         </section>
-        <section class="section3-home">
-            <div class="preparacion-home">
+        <section class="preparation">
+            <div>
                 <h2>Camino al Café Perfecto:</h2>
                 <p>Sumérgete con nosotros en un viaje a través de los distintos métodos de preparación de esta deliciosa
                     y versátil bebida.</p>
                 <a href="cultura-cafetera/preparacion.html">Saber más...</a>
             </div>
-            <div class="preparacion-img">
+            <div>
                 <img src="assets/preparaciones-home.jpg" alt="">
             </div>
         </section>
