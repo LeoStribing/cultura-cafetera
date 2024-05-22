@@ -74,7 +74,7 @@ section {
 
 section div {
     width: 48%;
-    padding: 3rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -94,10 +94,16 @@ section a {
 
 }
 
-section div img {
-    object-fit: cover;
-    padding: 2rem;
+.contenedor-imagen {
+    height: 250px;
+    width: 500px;
+    padding: 0;
+}
 
+.contenedor-imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .diversity {
@@ -164,6 +170,11 @@ aside .aside-home-img {
     height: 100%;
 }
 
+.contenedor-imagen img {
+    width: 100%;
+
+}
+
 /* VISTA MOBILE */
 
 
@@ -221,12 +232,13 @@ aside .aside-home-img {
 
     }
 
-    section div img {
+
+    .contenedor-imagen {
+        height: 150px;
+        width: 280px;
         padding: 0;
-
     }
-
-
+    
 
 }
 
