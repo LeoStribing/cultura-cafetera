@@ -121,3 +121,31 @@
     padding: .5rem 0 .5rem .5rem;
 
 }
+
+.swap {
+    order: 1;
+
+}
+@media screen and (max-width:1025px) {
+    .barista-destacado {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+
+    
+    }
+
+    .barista-destacado-text {
+        width: 100%;
+        height: auto;
+    
+    }
+
+    .barista-destacado img {
+        width: 80%;
+        
+
+    }
+
+}   
