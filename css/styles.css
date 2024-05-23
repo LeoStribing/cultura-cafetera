@@ -21,7 +21,7 @@ main .texto-main {
 main .texto-main h1 {
   text-align: center;
   font-size: calc(1.2rem + 2vw);
-  padding-bottom: 9rem;
+  padding-bottom: 0.5rem;
 }
 main .texto-main p {
   font-size: 1rem;
