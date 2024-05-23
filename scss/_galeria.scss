@@ -6,26 +6,23 @@
     width: 100%;
     height: 30rem;
     background-color: lightgrey;
-    padding:1rem;
-
-}
-
-.barista-destacado-text {
-    width: 48%;
-    height: 40rem;
-
-}
-
-.barista-destacado-text h2{
-    padding: 2rem;
-    font-size: xx-large;
-}
-
-.barista-destacado img {
-    width: 35%;
-    height: auto;
     padding: 1rem;
 
+    .barista-destacado-text {
+        width: 48%;
+        height: 40rem;
+
+        h2 {
+            padding: 2rem;
+            font-size: xx-large;
+        }
+    }
+
+    img {
+        width: 35%;
+        height: auto;
+        padding: 1rem;
+    }
 }
 
 .barista-carrousel {
@@ -38,40 +35,32 @@
 .galeria-h2 {
     text-align: center;
     font-size: xx-large;
-
 }
 
-.carousel-inner img {   
-    max-height: 40rem; 
-    width: auto; 
+.carousel-inner img {
+    max-height: 40rem;
+    width: auto;
 }
 
 .carousel {
     max-width: 60%;
-    margin-left: auto; 
-    margin-right: auto; 
+    margin-left: auto;
+    margin-right: auto;
     padding: 2rem;
-
-    
 }
 
 .galeria {
     display: grid;
-    grid-gap: .2rem;
-}
-
-.galeria img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
-}
-
-.galeria {
+    grid-gap: 0.2rem;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 50rem);
     padding: 1rem;
 
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 }
 
 .foto1galeria {
@@ -80,86 +69,86 @@
 }
 
 .foto2galeria {
-    grid-column:3/4;
+    grid-column: 3/4;
     grid-row: 1/3;
 }
 
 .foto3galeria {
-    grid-column:1/3 ;
+    grid-column: 1/3;
     grid-row: 2/3;
 }
 
 .foto4galeria {
-    grid-column:1/4;
-    grid-row:3/4;
+    grid-column: 1/4;
+    grid-row: 3/4;
 }
 
 .foto5galeria {
-    grid-column:1/2;
-    grid-row:4/6;
+    grid-column: 1/2;
+    grid-row: 4/6;
 }
 
 .foto6galeria {
-    grid-column:2/4;
-    grid-row:4/5;
+    grid-column: 2/4;
+    grid-row: 4/5;
 }
 
 .foto7galeria {
-    grid-column:2/4;
-    grid-row:5/6;
+    grid-column: 2/4;
+    grid-row: 5/6;
 }
 
-.container .form-name, .form-email {
-    display: flex;
-    justify-content: space-between;
-    padding: .5rem;
-}
+.container {
+    .form-name, .form-email {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem;
+    }
 
-.container .form-message {
-    display: flex;
-    flex-direction: column;
-    padding: .5rem 0 .5rem .5rem;
-
+    .form-message {
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem 0 0.5rem 0.5rem;
+    }
 }
 
 .swap {
     order: 1;
-
 }
 
 .contenedor-formulario {
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
-.formulario-galeria {    
+.formulario-galeria {
     background-color: grey;
     padding: 1rem;
-    max-width: 30rem; 
-    width: 100%; 
-}
+    max-width: 30rem;
+    width: 100%;
 
-.formulario-galeria h3 {
-    margin-bottom: 1.2rem;
+    h3 {
+        margin-bottom: 1.2rem;
+    }
 }
 
 .form-name, .form-email, .form-message {
-    margin-bottom: 1rem; 
+    margin-bottom: 1rem;
 }
 
 label {
-    display: block; 
-    margin-bottom: 5px; 
+    display: block;
+    margin-bottom: 5px;
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 100%; 
-    padding: 10px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
     box-sizing: border-box;
 }
 
@@ -172,50 +161,39 @@ textarea {
 }
 
 .enviar-form {
-    background-color: saddlebrown; 
+    background-color: saddlebrown;
     color: #fff;
     border: none;
     border-radius: 4px;
-    cursor: pointer; 
-}
+    cursor: pointer;
 
-.enviar-form:hover {
-    background-color: #000000; 
+    &:hover {
+        background-color: #000000;
+    }
 }
 
 /* VISTA TABLET */
-@media screen and (max-width:1025px) {
+@media screen and (max-width: 1025px) {
     .barista-destacado {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         height: auto;
 
-    
+        .barista-destacado-text {
+            width: 100%;
+            height: auto;
+        }
+
+        img {
+            width: 80%;
+        }
     }
-
-    .barista-destacado-text {
-        width: 100%;
-        height: auto;
-    
-    }
-
-    .barista-destacado img {
-        width: 80%;
-        
-
-    }
-
-}   
+}
 
 /* VISTA MOBILE */
-
-@media screen and (max-width:840px) {
+@media screen and (max-width: 840px) {
     .galeria-h2 {
         font-size: 2rem;
-
     }
-
-
-} 
-
+}
