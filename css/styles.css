@@ -462,46 +462,41 @@ main {
 .galeria img {
   width: 100%;
   height: 100%;
+  padding: 1rem;
   -o-object-fit: cover;
      object-fit: cover;
 }
-
-.foto1galeria {
+.galeria .foto1galeria {
   grid-column: 1/3;
   grid-row: 1/2;
 }
-
-.foto2galeria {
+.galeria .foto2galeria {
   grid-column: 3/4;
   grid-row: 1/3;
 }
-
-.foto3galeria {
+.galeria .foto3galeria {
   grid-column: 1/3;
   grid-row: 2/3;
 }
-
-.foto4galeria {
+.galeria .foto4galeria {
   grid-column: 1/4;
   grid-row: 3/4;
 }
-
-.foto5galeria {
+.galeria .foto5galeria {
   grid-column: 1/2;
   grid-row: 4/6;
 }
-
-.foto6galeria {
+.galeria .foto6galeria {
   grid-column: 2/4;
   grid-row: 4/5;
 }
-
-.foto7galeria {
+.galeria .foto7galeria {
   grid-column: 2/4;
   grid-row: 5/6;
 }
 
-.container .form-name, .container .form-email {
+.container .form-name,
+.container .form-email {
   display: flex;
   justify-content: space-between;
   padding: 0.5rem;
@@ -531,19 +526,18 @@ main {
 .formulario-galeria h3 {
   margin-bottom: 1.2rem;
 }
-
-.form-name, .form-email, .form-message {
+.formulario-galeria .form-name,
+.formulario-galeria .form-email,
+.formulario-galeria .form-message {
   margin-bottom: 1rem;
 }
-
-label {
+.formulario-galeria label {
   display: block;
   margin-bottom: 5px;
 }
-
-input[type=text],
-input[type=email],
-textarea {
+.formulario-galeria input[type=text],
+.formulario-galeria input[type=email],
+.formulario-galeria textarea {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
@@ -590,6 +584,51 @@ textarea {
 @media screen and (max-width: 840px) {
   .galeria-h2 {
     font-size: 2rem;
+  }
+  .galeria-h2 h2 {
+    font-size: 1rem;
+  }
+  .barista-destacado-text {
+    width: 48%;
+    height: 40rem;
+  }
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 20rem);
+  }
+  .galeria img {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .galeria .foto1galeria {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  .galeria .foto2galeria {
+    grid-column: 1/2;
+    grid-row: 3/5;
+  }
+  .galeria .foto3galeria {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+  .galeria .foto4galeria {
+    display: none;
+  }
+  .galeria .foto5galeria {
+    grid-column: 2/3;
+    grid-row: 3/5;
+  }
+  .galeria .foto6galeria {
+    grid-column: 1/3;
+    grid-row: 5/6;
+  }
+  .galeria .foto7galeria {
+    grid-column: 1/3;
+    grid-row: 6/7;
   }
 }
 * {
