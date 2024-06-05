@@ -42,7 +42,7 @@ main {
     }
 }
 
-/* SECCIONES DE LA HOME PAGE */
+// SECCIONES DE LA HOME PAGE
 section {
     background-color: lightgray;
     display: flex;
@@ -100,7 +100,7 @@ section {
     color: white;
 }
 
-/* VISTA TABLET */
+// VISTA TABLET
 @media screen and (max-width: 1025px) {
     main .imagen-derecha {
         display: none;
@@ -145,7 +145,7 @@ section {
     }
 }
 
-/* VISTA MOBILE */
+// VISTA MOBILE
 @media screen and (max-width: 840px) {
     main .texto-main h1 {
         padding-bottom: 1rem;
@@ -177,10 +177,11 @@ section {
     section {
         flex-direction: column;
         height: auto;
+        align-items: center;
 
         div {
             width: 100%;
-            padding: 0.5rem;
+            padding: 1.4rem;
         }
 
         h2 {
@@ -199,9 +200,3 @@ section {
         padding: 0;
     }
 }
-
-
-
-
-
-

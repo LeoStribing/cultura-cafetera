@@ -154,10 +154,11 @@ section a {
   section {
     flex-direction: column;
     height: auto;
+    align-items: center;
   }
   section div {
     width: 100%;
-    padding: 0.5rem;
+    padding: 1.4rem;
   }
   section h2 {
     font-size: 1rem;
@@ -179,12 +180,12 @@ section a {
   align-items: center;
 }
 .historia-main .parallax {
-  width: 100%;
-  height: 60rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../assets/etiopia.jpg);
+  width: 100%;
+  height: 60rem;
+  background-image: url("../assets/etiopia.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -202,7 +203,7 @@ section a {
   justify-content: space-evenly;
   align-items: center;
   margin: 1rem;
-  border: 2rem;
+  border: 1rem;
   height: auto;
   background-color: lightgrey;
 }
@@ -236,8 +237,9 @@ section a {
 
 .evento-historia {
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   flex-direction: row;
-  justify-content: space-around;
   height: 30rem;
   width: 100%;
   padding: 2rem;
@@ -246,8 +248,9 @@ section a {
 }
 .evento-historia div:first-child {
   display: flex;
-  flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
   width: 30%;
   height: 100%;
   padding: 1rem;
@@ -258,7 +261,6 @@ section a {
   padding: 1rem;
 }
 
-/* MEDIA QUERY TABLET */
 @media screen and (max-width: 1025px) {
   .historia1 {
     margin: 0.5rem;
@@ -276,7 +278,6 @@ section a {
     padding: 1rem;
   }
 }
-/* VISTA MOBILE */
 @media screen and (max-width: 840px) {
   .historia-main .parallax {
     height: 50rem;
@@ -331,7 +332,7 @@ section a {
 main {
   padding: 2rem;
   border: 0.5rem;
-  margin: 1rem;
+  margin: 2rem;
 }
 
 .preparacion {
@@ -351,10 +352,11 @@ main {
 }
 .metodo div {
   width: 48%;
-  padding: 3rem;
+  padding: 2rem;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .metodo p {
   padding: 5rem;
@@ -368,10 +370,7 @@ main {
   padding: 5rem;
 }
 
-.prensa img {
-  order: -1;
-}
-
+.prensa img,
 .moka img {
   order: -1;
 }
@@ -397,6 +396,7 @@ main {
   .metodo img {
     order: 0 !important;
     padding-bottom: 0.5rem;
+    width: 48% !important;
   }
   .metodo p {
     padding: 0.2rem !important;
@@ -419,7 +419,7 @@ main {
   height: 40rem;
 }
 .barista-destacado .barista-destacado-text h2 {
-  padding: 2rem;
+  padding: 1rem;
   font-size: xx-large;
 }
 .barista-destacado img {
@@ -439,6 +439,9 @@ main {
   text-align: center;
   font-size: xx-large;
 }
+.galeria-h2 h2 {
+  font-size: 1rem;
+}
 
 .carousel-inner img {
   max-height: 40rem;
@@ -449,7 +452,7 @@ main {
   max-width: 60%;
   margin-left: auto;
   margin-right: auto;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .galeria {
@@ -524,12 +527,12 @@ main {
   width: 100%;
 }
 .formulario-galeria h3 {
-  margin-bottom: 1.2rem;
+  margin-bottom: 0.6rem;
 }
 .formulario-galeria .form-name,
 .formulario-galeria .form-email,
 .formulario-galeria .form-message {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 .formulario-galeria label {
   display: block;
@@ -575,6 +578,10 @@ main {
   .barista-destacado .barista-destacado-text {
     width: 100%;
     height: auto;
+  }
+  .barista-destacado .barista-destacado-text h2 {
+    padding: 1rem;
+    font-size: xx-large;
   }
   .barista-destacado img {
     width: 80%;
