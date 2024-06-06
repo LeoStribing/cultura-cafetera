@@ -5,7 +5,7 @@ $font-size-h1: 3rem;
 $font-size-h2: 2rem;
 $font-size-p: 1rem;
 $color-white: rgb(255, 255, 255);
-$padding-general: 1rem;
+$paddingborder-general: 1rem;
 $width-full: 100%;
 $height-full: 100%;
 
@@ -50,8 +50,8 @@ $height-full: 100%;
 
 .historia1 {
     @include flex-evenly;
-    margin: $padding-general;
-    border: $padding-general;
+    margin: $paddingborder-general;
+    border: $paddingborder-general;
     height: auto;
     background-color: lightgrey;
 
@@ -63,8 +63,8 @@ $height-full: 100%;
 
     p {
         font-size: $font-size-p;
-        padding-bottom: $padding-general;
-        padding-right: $padding-general;
+        padding-bottom: $paddingborder-general;
+        padding-right: $paddingborder-general;
     }
 
     .historia1-text {
@@ -80,7 +80,7 @@ $height-full: 100%;
     img {
         width: 35%;
         text-align: center;
-        padding-right: $padding-general;
+        padding-right: $paddingborder-general;
     }
 }
 
@@ -94,7 +94,7 @@ $height-full: 100%;
     height: 30rem;
     width: $width-full;
     padding: 2rem;
-    margin-bottom: $padding-general;
+    margin-bottom: $paddingborder-general;
     background-color: grey;
 
     div:first-child {
@@ -102,13 +102,13 @@ $height-full: 100%;
         flex-direction: column;
         width: 30%;
         height: $height-full;
-        padding: $padding-general;
+        padding: $paddingborder-general;
     }
 
     img {
         width: 45%;
         height: $height-full;
-        padding: $padding-general;
+        padding: $paddingborder-general;
     }
 }
 
@@ -131,7 +131,7 @@ $height-full: 100%;
     .evento-historia img {
         width: 60%;
         height: $height-full;
-        padding: $padding-general;
+        padding: $paddingborder-general;
     }
 }
 
@@ -154,13 +154,13 @@ $height-full: 100%;
         div:first-child {
             width: $width-full;
             height: $height-full;
-            padding: $padding-general;
+            padding: $paddingborder-general;
         }
 
         img {
             width: 60%;
             height: $height-full;
-            padding: $padding-general;
+            padding: $paddingborder-general;
         }
 
         h2 {

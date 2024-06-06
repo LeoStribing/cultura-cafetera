@@ -1,12 +1,11 @@
 // VARIABLES Y MIXINS
-$padding-general: 2rem;
+$paddingmargin-general: 2rem;
 $border-width: 0.5rem;
 $border-width-double: 0.4rem;
 $padding-method: 2rem;
 $padding-img: 5rem;
 $img-width: 40%;
 $img-width-mobile: 48%;
-$padding-p-mobile: 0.2rem;
 
 @mixin flex-center {
     display: flex;
@@ -24,14 +23,14 @@ $padding-p-mobile: 0.2rem;
 }
 
 main {
-    padding: $padding-general;
+    padding: $paddingmargin-general;
     border: $border-width;
-    margin: $padding-general;
+    margin: $paddingmargin-general;
 }
 
 .preparacion {
     border: $border-width-double;
-    padding: $padding-general;
+    padding: $paddingmargin-general;
     border-style: double;
 }
 
@@ -42,11 +41,11 @@ main {
     justify-content: space-evenly;
     text-align: center;
     padding: $padding-method;
-    margin: $padding-general;
+    margin: $paddingmargin-general;
 
     div {
         width: 48%;
-        padding: $padding-general;
+        padding: $paddingmargin-general;
         @include flex-center;
         flex-direction: column;
     }
@@ -96,7 +95,7 @@ main {
         }
 
         p {
-            padding: $padding-p-mobile !important;
+            padding: 0.2rem !important;
             margin: 0;
             width: 100%;
         }

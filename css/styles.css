@@ -36,7 +36,6 @@ main .texto-main .bold {
   font-size: 1.5rem;
 }
 
-/* SECCIONES DE LA HOME PAGE */
 section {
   background-color: lightgray;
   display: flex;
@@ -90,7 +89,6 @@ section a {
   color: white;
 }
 
-/* VISTA TABLET */
 @media screen and (max-width: 1025px) {
   main .imagen-derecha {
     display: none;
@@ -127,7 +125,6 @@ section a {
     width: 100%;
   }
 }
-/* VISTA MOBILE */
 @media screen and (max-width: 840px) {
   main .texto-main h1 {
     padding-bottom: 1rem;
@@ -375,7 +372,6 @@ main {
   order: -1;
 }
 
-/* VISTA TABLET - MOBILE */
 @media screen and (max-width: 1025px) {
   .metodo {
     display: flex;
@@ -567,7 +563,6 @@ main {
   background-color: #000000;
 }
 
-/* VISTA TABLET */
 @media screen and (max-width: 1025px) {
   .barista-destacado {
     flex-direction: column;
@@ -587,7 +582,6 @@ main {
     width: 80%;
   }
 }
-/* VISTA MOBILE */
 @media screen and (max-width: 840px) {
   .galeria-h2 {
     font-size: 2rem;
